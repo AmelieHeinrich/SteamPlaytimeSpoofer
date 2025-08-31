@@ -1,0 +1,7 @@
+steam/dll/**.dll
+steam/include/steam
+steam/lib/**.lib
+
+.vscode
+.xmake
+build
