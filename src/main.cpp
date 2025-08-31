@@ -24,7 +24,7 @@ int WinMain(
     STARTUPINFO si = { sizeof(si) };
     PROCESS_INFORMATION pi;
     if (!CreateProcess(EXE_NAME, NULL, NULL, NULL, FALSE, 0, NULL, NULL, &si, &pi)) {
-        std::cerr << "Failed to launch TGM3!\n";
+        std::cerr << "Failed to launch exe!\n";
         SteamAPI_Shutdown();
         return 1;
     }
@@ -40,3 +40,4 @@ int WinMain(
     
     return 0;
 }
+
